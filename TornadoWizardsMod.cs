@@ -5,6 +5,7 @@ using BTD_Mod_Helper.Api.Enums;
 using BTD_Mod_Helper.Api.ModOptions;
 using Il2CppAssets.Scripts.Models.Towers;
 using Il2CppNinjaKiwi.Common;
+using Il2CppNinjaKiwi.Localization;
 using PathsPlusPlus;
 using TornadoWizards;
 
@@ -29,5 +30,4 @@ public class TornadoWizardsMod : BloonsTD6Mod
 public class TornadoWizardPath : PathPlusPlus
 {
     public override string Tower => TowerType.WizardMonkey;
-    public override int UpgradeCount => 5;
 }

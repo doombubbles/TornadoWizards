@@ -13,4 +13,6 @@ The 5 new upgrades give them back lightning and tornado themed abilities they ha
 
 ![Screenshot](Screenshot.png)
 
+![Screenshot2](Screenshot2.png)
+
 [![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
