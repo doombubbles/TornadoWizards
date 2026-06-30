@@ -1,0 +1,32 @@
+[package]
+name = "TornadoWizards"
+namespace = "doombubbles"
+description = "A mod making use of PathsPlusPlus to add an additional upgrade path for Wizards. The 5 new upgrades give them back lightning and tornado themed abilities they had in previous games that were instead shifted to Druids in BTD6."
+websiteUrl = "https://github.com/doombubbles/TornadoWizards"
+
+[package.dependencies]
+LavaGang-MelonLoader = "0.7.3"
+doombubbles-Btd6ModHelper = "3.6.5"
+doombubbles-PathsPlusPlus = "1.2.2"
+
+[build]
+icon = "./Icon.png"
+readme = "./README.md"
+outdir = "bin"
+
+[[build.copy]]
+source = "./bin/Release/TornadoWizards.dll"
+target = "TornadoWizards.dll"
+
+[[build.copy]]
+source = "./CHANGELOG.md"
+target = "./CHANGELOG.md"
+
+[[build.copy]]
+source = "./LICENSE"
+target = "./LICENSE"
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["bloons-td-6"]
+categories = ["mods"]

@@ -11,7 +11,8 @@ public static class ModHelperData
         "The 5 new upgrades give them back lightning and tornado themed abilities they had in previous games that were instead shifted to Druids in BTD6.";
 
     public const string RepoOwner = "doombubbles";
-    public const string RepoName = "tornado-wizards";
+    public const string PrevRepoName = "tornado-wizards";
+    public const string RepoName = "TornadoWizards";
 
-    public const string Dependencies = "doombubbles/paths-plus-plus";
+    public const string Dependencies = "doombubbles/PathsPlusPlus";
 }

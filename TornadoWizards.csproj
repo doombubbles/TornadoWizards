@@ -8,21 +8,12 @@
         <LangVersion>preview</LangVersion>
         <Optimize>False</Optimize>
         <DebugType>embedded</DebugType>
+        <Dependencies>PathsPlusPlus</Dependencies>
     </PropertyGroup>
 
     <Import Project="..\btd6.targets" />
 
     <ItemGroup>
-        <Reference Include="PathsPlusPlus">
-            <HintPath>$(BloonsTD6)\Mods\PathsPlusPlus.dll</HintPath>
-        </Reference>
-    </ItemGroup>
-    
-    <ItemGroup>
-        <EmbeddedResource Remove="Screenshot.png" />
-    </ItemGroup>
-    
-    <ItemGroup>
-      <Content Include=".github\workflows\build.yml" />
+        <Content Include=".github\workflows\build.yml" />
     </ItemGroup>
 </Project>

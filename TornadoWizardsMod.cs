@@ -11,6 +11,7 @@ using TornadoWizards;
 
 [assembly: MelonInfo(typeof(TornadoWizardsMod), ModHelperData.Name, ModHelperData.Version, ModHelperData.RepoOwner)]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
+[assembly: MelonGame("Ninja Kiwi", "BloonsTD6-Epic")]
 
 namespace TornadoWizards;
 
@@ -30,4 +31,5 @@ public class TornadoWizardsMod : BloonsTD6Mod
 public class TornadoWizardPath : PathPlusPlus
 {
     public override string Tower => TowerType.WizardMonkey;
+
 }
