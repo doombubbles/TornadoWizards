@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Added more crosspathing interactions:
+  - Arcane Mastery increases lightning damage
+  - Arcane Spike adds bonus MOAB-class lightning damage
+  - Archmage further improves lightning damage, MOAB-class damage, pierce, and attack rate
+  - Dragon's Breath greatly increases the lightning attack rate
+  - Summon Phoenix and Wizard Lord Phoenix increase lightning damage and give Phoenix summons their own lightning attacks
+  - (Already Worked) Necromancer and Prince of Darkness increase lightning damage based on Graveyard value
+- Fixed an issue with applying to 5/5/5/2 Wizards from Ultimate Crosspathing + Mini Crosspaths
+
 ## [1.0.4] - 2026-05-06
 
 - Fixed for BTD6 v45

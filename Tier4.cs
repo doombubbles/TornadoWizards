@@ -53,11 +53,15 @@ public class ElectricOverload : UpgradePlusPlus<TornadoWizardPath>
         }
         else
         {
-            var weapon = towerModel.GetAttackModel().weapons.First(w => w.name == "WeaponModel_Lightning");
-            weapon.Rate /= 2;
-            var lightning = weapon.projectile;
-            lightning.GetDamageModel().damage += 4;
-            lightning.GetBehavior<LightningModel>().splits++;
+            var weapon = towerModel.GetAttackModel().weapons
+                .FirstOrDefault(w => w.name == "WeaponModel_Lightning" || w.modelName.Contains("Lightning"));
+            if (weapon != null)
+            {
+                weapon.Rate /= 2;
+                var lightning = weapon.projectile;
+                lightning.GetDamageModel().damage += 4;
+                lightning.GetBehavior<LightningModel>().splits++;
+            }
         }
 
         if (IsHighestUpgrade(towerModel))
