@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2026-07-02
+
 - Added more crosspathing interactions:
   - Arcane Mastery increases lightning damage
   - Arcane Spike adds bonus MOAB-class lightning damage
@@ -38,7 +40,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Initial Release
 
-[unreleased]: https://github.com/doombubbles/TornadoWizards/compare/1.0.4...HEAD
+[unreleased]: https://github.com/doombubbles/TornadoWizards/compare/1.0.5...HEAD
+[1.0.5]: https://github.com/doombubbles/TornadoWizards/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/doombubbles/TornadoWizards/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/doombubbles/TornadoWizards/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/doombubbles/TornadoWizards/compare/1.0.1...1.0.2
